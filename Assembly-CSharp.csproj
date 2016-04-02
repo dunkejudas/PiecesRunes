@@ -148,11 +148,16 @@
      <Compile Include="Assets\SampleAssets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\SampleAssets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\SampleAssets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Scripts\ThirdPersonCharacter_piecesOverride.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonUserControl_piecesOverride.cs" />
+     <Compile Include="Assets\Scripts\UILogs_SN.cs" />
+     <Compile Include="Assets\Scripts\bonusObjects_SN.cs" />
+     <Compile Include="Assets\Scripts\characterDeathCollider_SN.cs" />
      <Compile Include="Assets\Scripts\constructorControl_SN.cs" />
+     <Compile Include="Assets\Scripts\customCharacterController_SN.cs" />
      <Compile Include="Assets\Scripts\destructorCutoffControl_SN.cs" />
-     <Compile Include="Assets\Scripts\fixedCamera_SN.cs" />
      <Compile Include="Assets\Scripts\gameGroundScript_SN.cs" />
+     <Compile Include="Assets\Scripts\monsterController_SN.cs" />
      <Compile Include="Assets\Scripts\parentToPlayer_SN.cs" />
      <None Include="Assets\SampleAssets\Effects\Projectors\ProjectorGuidelines.txt" />
      <None Include="Assets\SampleAssets\Effects\GlassRefraction (Pro Only)\Shaders\GlassStainedBumpDistort.shader" />

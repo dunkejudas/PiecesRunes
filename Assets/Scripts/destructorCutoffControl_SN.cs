@@ -15,6 +15,7 @@ public class destructorCutoffControl_SN : MonoBehaviour {
 
     void OnTriggerEnter(Collider collision)
     {
-        Destroy(collision.gameObject.transform.parent.gameObject);
+        if (collision.gameObject.tag == "gameGround")
+            Destroy(collision.gameObject.transform.parent.gameObject);
     }
 }
