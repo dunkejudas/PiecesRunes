@@ -315,8 +315,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 322590358}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.006000042, y: 0.93, z: -0.02}
-  m_LocalScale: {x: 0.89761454, y: 0.8976148, z: 0.8976148}
+  m_LocalPosition: {x: 0.006000042, y: 0.74, z: -0.02}
+  m_LocalScale: {x: 1.5651788, y: 1.5651792, z: 1.5651792}
   m_Children: []
   m_Father: {fileID: 1169442136}
   m_RootOrder: 0
@@ -394,6 +394,48 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!1001 &350730569
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 465986, guid: f459cc12c7ead17438a5eb1264b0102e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465986, guid: f459cc12c7ead17438a5eb1264b0102e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465986, guid: f459cc12c7ead17438a5eb1264b0102e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465986, guid: f459cc12c7ead17438a5eb1264b0102e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465986, guid: f459cc12c7ead17438a5eb1264b0102e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465986, guid: f459cc12c7ead17438a5eb1264b0102e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465986, guid: f459cc12c7ead17438a5eb1264b0102e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 465986, guid: f459cc12c7ead17438a5eb1264b0102e, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f459cc12c7ead17438a5eb1264b0102e, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &895646786
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,7 +568,7 @@ GameObject:
   - 114: {fileID: 1169442137}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -915,6 +957,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   _bonusObjs:
+  - {fileID: 105514, guid: f459cc12c7ead17438a5eb1264b0102e, type: 2}
   - {fileID: 105514, guid: f459cc12c7ead17438a5eb1264b0102e, type: 2}
   _randomSpawnBonusObjects: 1
 --- !u!54 &1831579628

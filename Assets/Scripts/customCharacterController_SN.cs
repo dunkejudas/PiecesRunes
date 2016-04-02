@@ -106,7 +106,7 @@ public class customCharacterController_SN : MonoBehaviour {
 
     public void OnCollisionEnter(Collision col)
     {
-        if (_inAir && this.GetComponent<Rigidbody>().velocity.y < 0)
+        if (_inAir)
         {
 
             if(!col.collider.isTrigger && col.gameObject.tag == "gameGround_Collider")
